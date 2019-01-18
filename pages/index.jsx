@@ -1,9 +1,9 @@
-const index = () => {
+import Layout from '../components/Layout';
+
+export default () => {
   return (
-    <div>
-      <h1>welcome there</h1>
-    </div>
+    <Layout title="Home">
+      <p>Welcome to the Home Page</p>
+    </Layout>
   );
 };
-
-export default index;
